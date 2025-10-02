@@ -1,0 +1,217 @@
+.myCartTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 80%;
+  padding: 10px 0;
+  margin-top: 1px;
+}
+
+hr {
+  background-color: lightgrey;
+  height: 2px;
+  width: 80%;
+}
+
+.tableContent {
+  width: 80%;
+  height: auto;
+}
+
+.tableSize {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.itemHeaderSize {
+  width: auto;
+  height: auto;
+  padding-bottom: 15px;
+  font-size: 2rem;
+}
+
+.headerSize {
+  width: auto;
+  height: auto;
+  padding-bottom: 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.checkHeaderSize {
+  width: 5%;
+  height: auto;
+  padding-bottom: 15px;
+  font-size: 2rem;
+}
+
+.itemDataSize {
+  width: auto;
+  height: auto;
+  padding: 20px 0px;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.itemDataSize a {
+    cursor: pointer;
+}
+
+.itemDataSize p {
+  width: 700px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+}
+
+.imageDataSize {
+  width: 10%;
+  height: auto;
+  padding: 20px 0px;
+}
+
+.imageDataSize a {
+  cursor: pointer;
+}
+
+.dataSize {
+  width: 12%;
+  height: auto;
+  vertical-align: middle;
+  padding: 20px 0px;
+}
+
+.dataSize p {
+  text-align: center;
+}
+
+.checkDataSize {
+  width: 5%;
+  height: auto;
+  vertical-align: middle;
+  padding: 20px 0px 20px 10px;
+}
+
+.Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 15px;
+}
+
+.removeButton {
+  font-size: 1.5rem;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+  height: 30px;
+  width: 100px;
+  padding: 0px 10px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(255, 52, 52);
+}
+
+.removeButton:hover {
+  background-color: rgb(180, 56, 56);
+}
+
+.item_image {
+  object-fit: cover;
+  height: 100px;
+  width: 150px;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.tableRow {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  height: 140px;
+  width: 100%;
+}
+
+.quantityBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decreaseButton,
+.increaseButton {
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: center;
+  align-content: center;
+  font-size: 1.5rem;
+  border: 2px solid lightgray;
+}
+
+.decreaseButton:hover,
+.increaseButton:hover {
+  background-color: lightgray;
+}
+
+.decreaseButton {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.increaseButton {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.quantityInput {
+  font-size: 1.5rem;
+  text-align: center;
+  align-content: center;
+  width: 50px;
+  padding: 5px;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+/* .quantityButton:hover {
+  background-color: #e0e0e0;
+} */
+
+.quantityInput::-webkit-outer-spin-button,
+.quantityInput::-webkit-inner-spin-button,
+.quantityInput::-webkit-contacts-auto-fill-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.checkbox {
+  appearance: auto;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.checkoutButton {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.checkoutButton:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+}
+
+.checkoutButtonContainer {
+  position: fixed;
+  bottom: 50px;
+  right: 35px;
+  transition: transform 0.0s ease;
+}
