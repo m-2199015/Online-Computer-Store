@@ -1,0 +1,177 @@
+.wholeFormContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: auto;
+  margin: 20px 0px 85px 0px;
+}
+
+.welcomeHome {
+  font-size: 5rem;
+}
+
+.imageCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.img_container {
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 550px;
+  width: 80%;
+  overflow: hidden;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+.img_preview {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  height: 550px;
+  width: 100%;
+}
+
+.label {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.imageInput {
+  display: none;
+}
+
+/* ABOUT US */
+
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.aboutUsTittle {
+  font-size: 5rem;
+}
+
+.aboutUsDescription {
+  width: 80%;
+  height: auto;
+  font-size: 1.5rem;
+}
+
+.aboutUsDescription .input {
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
+  margin: 20px 0px;
+  background-color: white;
+}
+
+.AboutUs_img_container {
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+.AboutUs_img_preview {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+}
+
+/* What we do */
+
+.WWDContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.WWD_IMG_DES {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 550px;
+  margin: 10px 0px 20px 0px;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.WWD_img_container {
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 240px;
+  width: 330px;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.WWD_img_preview {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  height: 240px;
+  width: 330px;
+}
+
+.WWD_DES {
+  height: 250px;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.WWD_DES_Input {
+  width: 330px;
+  height: 230px;
+  background-color: white;
+  align-self: center;
+  border: 1px solid black;
+}
+
+/* SUBMIT */
+
+.submit {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0s ease;
+}
+
+.submit:hover {
+  box-shadow: 0 6px 10px rgba(0.6, 0.6, 0.6, 0.6);
+}
+
+.submit i {
+  font-size: 1.2rem;
+}

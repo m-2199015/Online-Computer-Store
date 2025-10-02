@@ -1,0 +1,100 @@
+.mainDisplayBox{
+    display:flex;
+    flex-direction: row;
+    height:auto;
+    width:600px;
+    margin:20px 0px;
+    /* background-image:  url(../image/4562472.jpg); */
+    background-color: grey;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding-right: 50px;
+    }
+
+    .AboutUsForm{
+        margin: 20px 50px 0px 0px;
+        height:auto;
+        width: 300px;
+        background-color: transparent;
+        align-self: center;
+        justify-content: center;
+        font-size:2rem;
+        align-self:center
+        
+    }
+
+    .imageInput{
+        width:70px;
+        height:20px;
+        border:none;
+        background-color: transparent;
+      
+    }
+
+    .submitButton{
+        width:100px;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #3399FF;
+        color: ghostwhite;
+        border-radius: 10px;
+    }
+
+    .submitButton:hover{
+        cursor: pointer;
+    }
+
+   
+
+    .input{
+        border:1px solid black;
+        background-color: white;
+        width:300px;
+        height: 100px;
+        
+    }
+
+
+    /* editAboutUsForm */
+
+    .EditAboutUsForm{
+        margin-top: 20px;
+        display:flex;
+        flex-direction: column;
+        height:auto;
+        width: 300px;
+        background-color: transparent;
+        align-self: center;
+        justify-content: center;
+        font-size: 2rem;
+
+    }
+
+    .EditAboutUsMainDisplayBox{
+        display:flex;
+        flex-direction: column;
+        height:auto;
+        width:1000px;
+        margin:20px 0px;
+        /* background-image:  url(../image/4562472.jpg); */
+        background-color: grey;
+        border-radius: 20px;
+        
+        }
+
+    .EditaboutUsImage{
+        width: 300px; 
+        height: auto;
+        border: solid 3px black;
+    }
+
+    /* BACK BUTTON */
+
+    .backButton{
+        margin-left: 30px;
+        margin-top:20px;
+        font-size: 2rem;
+    }
+    .backButton:hover{
+        cursor:pointer;
+    }
