@@ -3,10 +3,10 @@ This is a Online Computer Store project, including 2 types of users (user and ad
 </br></br>
 
 ## 🛠️ Languages Used
-• HTML
-• CSS
-• JavaScript
-• PHP
+• HTML</br>
+• CSS</br>
+• JavaScript</br>
+• PHP</br>
 • MySQL
 </br></br>
 
@@ -17,9 +17,9 @@ This is a Online Computer Store project, including 2 types of users (user and ad
 3. Locate the htdocs folder (should be inside xampp folder)
 
 ### Folders and Files
-1. Put the following folders inside htdocs: 
-   • Admin Online Computer Store
-   • Online Computer Store
+1. Put the following folders inside htdocs: </br>
+   • Admin Online Computer Store</br>
+   • Online Computer Store</br>
    • Image
 
 ### Database
